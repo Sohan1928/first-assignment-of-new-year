@@ -1,0 +1,365 @@
+header .banner-text {
+    @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap');
+    color: white;
+    text-align: center;
+}
+
+.banner-title {
+    font-size: 32px;
+    font-weight: 400;
+    padding-top: 177px;
+
+
+
+}
+
+.banner-content {
+    font-size: 72px;
+    font-weight: 900;
+    width: 635px;
+    line-height: 95px;
+    /* 131.944% */
+    margin: 0 auto;
+}
+
+
+header {
+    background: url(../Banner\ Image.png);
+    width: 82%;
+    max-width: 1320px;
+    height: 600px;
+    justify-content: center;
+    margin: 0 auto;
+    border-radius: 16px;
+}
+
+/* 65% off related style */
+
+.off-container {
+    text-align: center;
+}
+
+.off-title {
+    color: #F00;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 88px;
+    font-weight: 700;
+    line-height: normal;
+    padding-top: 100px;
+}
+
+.categories {
+    color: #070211;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    padding-bottom: 48px;
+}
+
+
+.off-container p {
+    color: #F00;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 48px;
+}
+
+.happy-img {
+    text-align: center;
+}
+
+/* welcome party related style */
+
+
+.party-banner {
+    background-image: url(../Vectorrr.png);
+    background-repeat: no-repeat;
+    display: flex;
+    width: 82%;
+    max-width: 1320px;
+    height: 600px;
+    margin: 120px auto;
+    border-radius: 16px;
+
+
+}
+
+section h1 {
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px;
+    /* 137.5% */
+    letter-spacing: 7.04px;
+    margin: 126px 94px 0 126px;
+}
+
+section p {
+    color: rgba(255, 255, 255, 0.80);
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    /* 166.667% */
+    margin: 24px 39px 48px 126px;
+}
+
+section button {
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+    background: none;
+    margin: 0px 0px 0px 158px;
+
+}
+
+.party-banner img {
+    margin: 68px 138px 67px 0px;
+}
+
+/* join-party-hotel */
+
+.party-address {
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    width: 82%;
+    max-width: 1320px;
+    height: 482px;
+    margin: 120px auto;
+    border-radius: 16px;
+}
+
+
+.join-party-hotel {
+    color: #070211;
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: capitalize;
+    text-align: center;
+    padding: 100px 0px 214px 0px;
+}
+
+.Place {
+    color: #F00;
+}
+
+.Date {
+    color: #F00;
+}
+
+.Time {
+    color: #F00;
+}
+
+.party-address #button {
+    background: #F00;
+    padding: 16px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700px;
+    margin: 64px 0px 126px 0px;
+}
+
+/* upcomming offer relater style */
+
+.offer-container {
+    width: 82%;
+    max-width: 1320px;
+    height: 500px;
+    display: inline-flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+   
+}
+
+.offer-container .new-best * {
+    margin: auto 0px 0px 0px 140px;
+}
+
+.offer {
+    color: #F00;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    /* margin: 0px 184px 0px 140px; */
+
+}
+
+.comming-offer {
+    color: #070211;
+    font-family: 'Merriweather', serif;
+    font-size: 48px;
+    font-weight: 900;
+    /* margin: 30px 0px 22px 140px; */
+}
+
+.offer-container p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    /* 160% */
+    /* margin-left: 140px; */
+}
+
+.offer-content {
+    width: 393px;
+}
+
+.offer-container img {
+    /* justify-content: center; */
+    margin: 0px 167px 49px 119px;
+}
+
+.offer-container .year-offer * {
+    margin: 0px 140px 0px 0px;
+}
+
+.ellipse {
+    text-align: center;
+    /* margin-left: 184px; */
+    border: 20px solid #FF0000;
+   
+   
+    
+}
+
+.year {
+    color: #F00;
+    font-family: 'Inter', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    /* text-align: justify; */
+    /* margin: auto 80px 0px 180px; */
+}
+
+#dolar {
+    /* margin: 20px 0px 0px 180px; */
+    width: 276px;
+}
+
+.new-year-icon {
+    /* margin: auto 60px; */
+}
+
+
+/* Holiday related style */
+
+.discount-container * {
+    text-align: center;
+    width: 82%;
+    max-width: 1320px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+}
+
+#holiday-title {
+    color: #070211;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+
+}
+
+.holiday-sale {
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-size: 72px;
+    font-weight: 900;
+    margin-top: 10px;
+}
+
+.holiday {
+    color: #F00;
+
+}
+
+.discount-container p {
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    /* 160% */
+    margin-top: 20px;
+
+}
+
+.holiday-pic {
+    display: flex;
+    justify-content: space-between
+}
+
+#discount-offer {
+    padding: 150px 285px 0px 0px;
+}
+
+
+/* aewsome-portfolio related style */
+
+.awesome-portfolio * {
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+
+
+}
+
+#best-gifts {
+    color: #F00;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+
+}
+
+/* awesome portfolio related style */
+
+.awesome-portfolio-content * {
+    width: 82%;
+    max-width: 1320px;
+    text-align: left;
+    align-items: baseline;
+}
+
+.awesome-portfolio h1 {
+    color: #070211;
+    font-family: 'Merriweather', serif;
+    font-size: 48px;
+    font-weight: 900;
+    
+
+}
+
+.awesome-portfolio p {
+    color: rgba(7, 2, 17, 0.60);
+    width: 896px;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    /* 160% */
+}
+.awesome-portfolio-first-pic{
+    display: inline-flex;
+}
+.awesome-portfolio-second-pic{
+    display: inline-flex;
+}
+
+
