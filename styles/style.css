@@ -180,7 +180,7 @@ section button {
     justify-content: space-between;
     text-align: center;
     align-items: center;
-   
+
 }
 
 .offer-container .new-best * {
@@ -231,9 +231,9 @@ section button {
     text-align: center;
     /* margin-left: 184px; */
     border: 20px solid #FF0000;
-   
-   
-    
+
+
+
 }
 
 .year {
@@ -342,7 +342,7 @@ section button {
     font-family: 'Merriweather', serif;
     font-size: 48px;
     font-weight: 900;
-    
+
 
 }
 
@@ -355,11 +355,107 @@ section button {
     line-height: 32px;
     /* 160% */
 }
-.awesome-portfolio-first-pic{
-    display: inline-flex;
-}
-.awesome-portfolio-second-pic{
+
+.awesome-portfolio-first-pic {
     display: inline-flex;
 }
 
+.awesome-portfolio-second-pic {
+    display: inline-flex;
+}
 
+/* newsletter related style */
+
+#newsletter {
+    margin: 120px;
+    border-radius: 16px;
+}
+
+.container-newsletter {
+    background-color: rgba(255, 0, 0, 0.05);
+    padding: 80px 0;
+    border-radius: 16px;
+
+}
+
+.nav-heading {
+    align-items: center;
+    text-align: center;
+}
+
+.nav-heading img {
+    padding: 40px auto;
+}
+
+.nav-heading h2 {
+    color: #070211;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.nav-heading p {
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    padding: auto 212px;
+}
+
+#newsletter form {
+    max-width: 600px;
+    margin: 20px auto;
+    display: flex;
+    max-width: 648px;
+    height: 72px;
+    border-radius: 50px;
+}
+
+#newsletter form input {
+    flex-grow: 1;
+    border-radius: 50px 0 0px 50px;
+    border: none;
+    padding: 15px;
+    font-size: 18px;
+    outline: none;
+}
+
+#newsletter form button {
+    width: 210px;
+    border-radius: 0px 50px 50px 0px;
+    background: #FF0000;
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+/* footer related style */
+
+.footer-container {
+    background-color: #070211;
+    width: 82%;
+    max-width: 1320px;
+    margin: 0 140px;
+    height: 500px;
+}
+
+.footer-container p {
+    color: white;
+    padding: 20px;
+    font-size: 24px;
+}
+
+.footer-container .footer-img {
+    display: inline-flex;
+    text-align: center;
+    align-items: center;
+    padding-left: 380px;
+}
+
+.footer-container .footer-img img{
+    padding: 5px;
+}
